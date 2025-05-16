@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/const.dart';
+import 'package:flutter_application_1/pages/detail_page/widgets/my_widget.dart';
 
 class ContainerImagePrice extends StatefulWidget {
   final Image image;
   final int index;
-  final Widget myWidget;
+  final MyWidget myWidget;
 
   const ContainerImagePrice({
     required Key key,

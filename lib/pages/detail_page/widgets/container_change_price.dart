@@ -5,7 +5,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 class ContainerChangePrice extends StatefulWidget {
   final String title, description;
-  final ValueNotifier myWidget;
+  final ValueNotifier<MyWidget> myWidget;
   final List<String> prices;
 
   const ContainerChangePrice({

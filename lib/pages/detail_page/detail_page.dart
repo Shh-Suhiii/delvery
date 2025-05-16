@@ -35,7 +35,7 @@ class DetailPage extends StatelessWidget {
                   image: pizza.image,
                   index: index,
                   myWidget:
-                      myWidgetValue, // Passing the MyWidget value instead of notifier
+                      myWidgetValue, // Pass the actual MyWidget value
                 ),
               ),
               Flexible(
@@ -44,7 +44,7 @@ class DetailPage extends StatelessWidget {
                   title: pizza.title,
                   description: pizza.description,
                   myWidget:
-                      myWidgetValue, // Passing the MyWidget value instead of notifier
+                      myWidgetNotifier, // Pass the ValueNotifier
                   prices: pizza.prices,
                 ),
               ),
